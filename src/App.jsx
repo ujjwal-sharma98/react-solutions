@@ -4,6 +4,7 @@ import Displaydot from './components/DisplayDot'
 import Pagination from './components/Pagination'
 import Counter from './components/Counter'
 import SearchComponent from './components/SearchComponent'
+import ApiCall from './components/ApiCall'
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
           {/* <Displaydot /> */}
           {/* <Pagination /> */}
           {/* <Counter /> */}
-          <SearchComponent />
+          {/* <SearchComponent /> */}
+          <ApiCall />
         </div>
       </ErrorBoundary>
     </>
